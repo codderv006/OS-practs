@@ -1,0 +1,28 @@
+to find kernel version
+
+root@tryit-moral:~/vedant# uname -r                                                           
+5.4.0-146-generic     
+
+to find OS version
+
+root@tryit-moral:~/vedant# uname -sr                                                          
+Linux 5.4.0-146-generic 
+
+print current shell
+echo "$SHELL"
+
+display home directory
+echo "$HOME"
+
+current working directory
+pwd
+
+Top 10 processes by CPU usage:
+ps aux --sort=-%cpu | head -n 11
+
+Top 10 processes with highest memory usage:
+ps aux --sort=-%mem | head -n 11
+
+To display current user and loggedname
+echo "Current logged user: $USER"
+echo "Logname: $LOGNAME"
